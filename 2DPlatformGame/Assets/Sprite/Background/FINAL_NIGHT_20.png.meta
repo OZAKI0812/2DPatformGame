@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FINAL_NIGHT_20_0: 5140052468991185590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
