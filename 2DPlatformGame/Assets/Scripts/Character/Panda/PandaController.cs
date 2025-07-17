@@ -137,8 +137,10 @@ public class PandaController : MonoBehaviour
     //ƒS[ƒ‹ˆ—
     public void Goal()
     {
-        gameState = "stageclear";    //ƒQ[ƒ€‚Ìó‘Ô‚ğ•ÏX
-        GameStop();                 //ƒQ[ƒ€’â~
+        //ƒQ[ƒ€‚Ìó‘Ô‚ğ•ÏX
+        gameState = "stageclear";
+        //ƒQ[ƒ€’â~
+        GameStop();                 
     }
     //ƒQ[ƒ€’â~
     void GameStop()
