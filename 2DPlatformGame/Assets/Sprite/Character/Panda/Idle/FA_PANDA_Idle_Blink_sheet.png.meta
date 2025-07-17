@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: ae3ef4273544d0d49848dbbf283edc81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3690720868146505941
+    second: FA_PANDA_Idle_Blink_sheet_0
+  - first:
+      213: -572566455335626935
+    second: FA_PANDA_Idle_Blink_sheet_1
+  - first:
+      213: -3397923264325788410
+    second: FA_PANDA_Idle_Blink_sheet_2
+  - first:
+      213: -8567547590648658073
+    second: FA_PANDA_Idle_Blink_sheet_3
+  - first:
+      213: 9007925598335575822
+    second: FA_PANDA_Idle_Blink_sheet_4
+  - first:
+      213: -3672045676262312824
+    second: FA_PANDA_Idle_Blink_sheet_5
+  - first:
+      213: 7964484809471582593
+    second: FA_PANDA_Idle_Blink_sheet_6
+  - first:
+      213: -426222696988643415
+    second: FA_PANDA_Idle_Blink_sheet_7
+  - first:
+      213: 1997040934415475167
+    second: FA_PANDA_Idle_Blink_sheet_8
+  - first:
+      213: 8128843126812512579
+    second: FA_PANDA_Idle_Blink_sheet_9
+  - first:
+      213: -3265197202784903017
+    second: FA_PANDA_Idle_Blink_sheet_10
+  - first:
+      213: -316454886095386187
+    second: FA_PANDA_Idle_Blink_sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 59
+        width: 280
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f571cc1468ff474e83544edf5ab4ee6
+      internalID: -895238728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 59
+        width: 280
+        height: 405
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c868b9f4f617e74ea351668eb0a75da
+      internalID: -614179118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 59
+        width: 277
+        height: 405
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f50bead65a1e94cab7995177727540
+      internalID: 1773074285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 59
+        width: 277
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb56d7b543ded5441a5f10eafb0a7ff2
+      internalID: 545901709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 59
+        width: 280
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e5214610a9e874e8474763aacebab0
+      internalID: -1378648687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 59
+        width: 277
+        height: 405
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b799bcbdcb0973b4e8dbc3d1aa87fedc
+      internalID: -350309057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 59
+        width: 280
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada705b6c280d414ca0cd87d685edc01
+      internalID: 1342211972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 59
+        width: 277
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06c72fd34b1ae94a9fefa6d74adf2c8
+      internalID: -1855494542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 59
+        width: 279
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f8642fa5892e045874ed03d8356ada
+      internalID: 1590502658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 59
+        width: 277
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380a19ff327af7e439f835978adfad4f
+      internalID: 1170536019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4531
+        y: 59
+        width: 277
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5238393dda06774a9d7eb623d78a1aa
+      internalID: -367895405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Idle_Blink_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 59
+        width: 279
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab4072c0940a544a8aabf82553ddfb4
+      internalID: -1598297549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bd0a847a979b9da4aa94359a1d941a23
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FA_PANDA_Idle_Blink_sheet_0: -895238728
+      FA_PANDA_Idle_Blink_sheet_1: -614179118
+      FA_PANDA_Idle_Blink_sheet_10: -367895405
+      FA_PANDA_Idle_Blink_sheet_11: -1598297549
+      FA_PANDA_Idle_Blink_sheet_2: 1773074285
+      FA_PANDA_Idle_Blink_sheet_3: 545901709
+      FA_PANDA_Idle_Blink_sheet_4: -1378648687
+      FA_PANDA_Idle_Blink_sheet_5: -350309057
+      FA_PANDA_Idle_Blink_sheet_6: 1342211972
+      FA_PANDA_Idle_Blink_sheet_7: -1855494542
+      FA_PANDA_Idle_Blink_sheet_8: 1590502658
+      FA_PANDA_Idle_Blink_sheet_9: 1170536019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

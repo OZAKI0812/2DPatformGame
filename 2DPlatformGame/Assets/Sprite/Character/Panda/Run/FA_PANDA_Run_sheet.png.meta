@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 41d94cee14e113948a9153be7417091c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -667287769757599036
+    second: FA_PANDA_Run_sheet_0
+  - first:
+      213: 5278929022606509453
+    second: FA_PANDA_Run_sheet_1
+  - first:
+      213: -349444798805801095
+    second: FA_PANDA_Run_sheet_2
+  - first:
+      213: -8089972621066039774
+    second: FA_PANDA_Run_sheet_3
+  - first:
+      213: -6448883293763436713
+    second: FA_PANDA_Run_sheet_4
+  - first:
+      213: -3888614727479066658
+    second: FA_PANDA_Run_sheet_5
+  - first:
+      213: 2195383235675243700
+    second: FA_PANDA_Run_sheet_6
+  - first:
+      213: -6843020294120546054
+    second: FA_PANDA_Run_sheet_7
+  - first:
+      213: 5422251551443110501
+    second: FA_PANDA_Run_sheet_8
+  - first:
+      213: -2773867744298152639
+    second: FA_PANDA_Run_sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 283
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95fac3354d7715408c94cedf8e4a4ee
+      internalID: -1835827404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 69
+        width: 277
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328a87263a2759348ac0da2e238520ac
+      internalID: 1680310846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 60
+        width: 277
+        height: 400
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaa1468c9abdbc479dcba1198e259d1
+      internalID: -649150119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 67
+        width: 277
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2da17f0cd760e43abb6a2411a4d584
+      internalID: 243233276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 80
+        width: 277
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbfab2437e56504f99cbb24c014d392
+      internalID: -610576648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 91
+        width: 277
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda796944a985447bd59af479cc11d6
+      internalID: -229804685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 68
+        width: 277
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d370aabce240c4fa246d0e366e478c
+      internalID: 574395327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 58
+        width: 277
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c00add62527c9c4596d1effba73156a
+      internalID: -1234189864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 67
+        width: 277
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407f5a4b977ecdb4f9a2dc33384830b3
+      internalID: 575460605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Run_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4079
+        y: 80
+        width: 277
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d1e230b3a271748b49e035d947367d
+      internalID: 2132986599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0fbada56899146f4c884216aec573d38
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FA_PANDA_Run_sheet_0: -1835827404
+      FA_PANDA_Run_sheet_1: 1680310846
+      FA_PANDA_Run_sheet_2: -649150119
+      FA_PANDA_Run_sheet_3: 243233276
+      FA_PANDA_Run_sheet_4: -610576648
+      FA_PANDA_Run_sheet_5: -229804685
+      FA_PANDA_Run_sheet_6: 574395327
+      FA_PANDA_Run_sheet_7: -1234189864
+      FA_PANDA_Run_sheet_8: 575460605
+      FA_PANDA_Run_sheet_9: 2132986599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

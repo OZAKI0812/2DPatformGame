@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: bf6b7d9fe4e5e4b438a74eff771b4974
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7426764305951784765
+    second: FA_PANDA_Jump_sheet_0
+  - first:
+      213: 4564192588098920263
+    second: FA_PANDA_Jump_sheet_1
+  - first:
+      213: 3765239331397655429
+    second: FA_PANDA_Jump_sheet_2
+  - first:
+      213: -1159758409109772121
+    second: FA_PANDA_Jump_sheet_3
+  - first:
+      213: 7949385685792077059
+    second: FA_PANDA_Jump_sheet_4
+  - first:
+      213: -2491470782733611632
+    second: FA_PANDA_Jump_sheet_5
+  - first:
+      213: -5622410368256407850
+    second: FA_PANDA_Jump_sheet_6
+  - first:
+      213: -5167529400276183124
+    second: FA_PANDA_Jump_sheet_7
+  - first:
+      213: 1678979539676478576
+    second: FA_PANDA_Jump_sheet_8
+  - first:
+      213: 1036456754825099332
+    second: FA_PANDA_Jump_sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 107
+        width: 277
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b7464fb2ed15429720ffb45fa3826
+      internalID: 908657036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 107
+        width: 277
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e96584db329ee4db58c484814322dc
+      internalID: 1965095729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 107
+        width: 279
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab37d86c166c0d4b93ec2acd8bfe37b
+      internalID: -1277890993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 107
+        width: 277
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b7cf83f9fe28e4f9d32fee9bc124c2
+      internalID: 1267053682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 107
+        width: 277
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27341d1dc06790943985f2e918704f1a
+      internalID: 1903693048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 111
+        width: 285
+        height: 406
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfcaee22a5d8884f98555fb3d0ca3ee
+      internalID: -666033250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 111
+        width: 284
+        height: 406
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9530e0f4ce3fac7498b3dbeb3182ceb8
+      internalID: 1853179199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 113
+        width: 281
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d659373dc2c7a24fafd3c50d40ecc02
+      internalID: 1627108937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 113
+        width: 281
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb65f4b9134a39345a879fee242749b5
+      internalID: -986588303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FA_PANDA_Jump_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 111
+        width: 284
+        height: 406
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438d623a41096554c87b9ce747822e29
+      internalID: 1598348088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f5c2c476398ea994c8dda3402e167efc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FA_PANDA_Jump_sheet_0: 908657036
+      FA_PANDA_Jump_sheet_1: 1965095729
+      FA_PANDA_Jump_sheet_2: -1277890993
+      FA_PANDA_Jump_sheet_3: 1267053682
+      FA_PANDA_Jump_sheet_4: 1903693048
+      FA_PANDA_Jump_sheet_5: -666033250
+      FA_PANDA_Jump_sheet_6: 1853179199
+      FA_PANDA_Jump_sheet_7: 1627108937
+      FA_PANDA_Jump_sheet_8: -986588303
+      FA_PANDA_Jump_sheet_9: 1598348088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
