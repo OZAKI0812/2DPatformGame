@@ -127,9 +127,9 @@ public class PandaController : MonoBehaviour
     public void GameOver()
     {
         //ゲームの状態を変更
-        gameState = "gameover"; 
+        gameState = "gameover";
         //ゲーム停止
-        GameStop();           
+        GameStop();
         //ゲームオーバー演出
         //①プレイヤーの当たり判定を消す
         GetComponent<CapsuleCollider2D>().enabled = false;
