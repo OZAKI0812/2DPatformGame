@@ -130,7 +130,7 @@ public class PandaController : MonoBehaviour
         GameStop();             //ゲーム停止
         //ゲームオーバー演出
         //①プレイヤーの当たり判定を消す
-        GetComponent<CircleCollider2D>().enabled = false;
+        GetComponent<CapsuleCollider2D>().enabled = false;
         //②プレイヤーを少し上に跳ね上げる演出
         rbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
     }
