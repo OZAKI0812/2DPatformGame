@@ -122,6 +122,12 @@ public class PandaController : MonoBehaviour
             //  アイテムを削除
             Destroy(collision.gameObject);
         }
+        else if (collision.gameObject.tag == "Enemy")
+        {
+            //  削除
+            rbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+            Destroy(collision.gameObject);
+        }
     }
     //ゲームオーバー処理
     public void GameOver()

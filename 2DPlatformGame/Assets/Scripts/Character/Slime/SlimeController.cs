@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BeeController : MonoBehaviour
+public class SlimeController : MonoBehaviour
 {
     public float speed = 1.0f;
     public float length = 10.0f;
@@ -16,9 +16,9 @@ public class BeeController : MonoBehaviour
     {
         if (PandaController.gameState != "playing") return;
 
-        GameObject panda= GameObject.FindGameObjectWithTag("Player");
+        GameObject panda = GameObject.FindGameObjectWithTag("Player");
         float distance = Vector3.Distance(transform.position, panda.transform.position);
-        if(length >= distance)
+        if (length >= distance)
         {
             isEnable = true;
         }
@@ -29,7 +29,6 @@ public class BeeController : MonoBehaviour
             this.transform.position = pos;
         }
     }
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, length);
