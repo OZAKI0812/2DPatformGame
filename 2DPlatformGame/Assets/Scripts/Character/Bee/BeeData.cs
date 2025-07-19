@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class CoinData : MonoBehaviour
+public class BeeData : MonoBehaviour
 {
-    public int score = 10;
+    public int score = 200;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

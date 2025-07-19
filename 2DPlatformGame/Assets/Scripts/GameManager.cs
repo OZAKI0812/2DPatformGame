@@ -13,14 +13,18 @@ public class GameManager : MonoBehaviour
     public Sprite                   stageClearSpr;
     //  TMProのテキスト
     public TMPro.TextMeshProUGUI    coinText;
+    public TMPro.TextMeshProUGUI    ScoreText;
     //  ステージのスコア
+    public int                      coin = 0;   
     public int                      stageScore = 0;
 
+    public AudioSource              audioSource;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mainImage.SetActive(false);
         restartButton.SetActive(false);
+        audioSource.Play();
     }
 
     // Update is called once per frame
@@ -38,6 +42,8 @@ public class GameManager : MonoBehaviour
         {
             mainImage.SetActive(true);
             restartButton.SetActive(true);
+            audioSource.Stop();
+
             mainImage.GetComponent<Image>().sprite = gameOverSpr;
             PandaController.gameState = "gameend";
         }
@@ -47,6 +53,12 @@ public class GameManager : MonoBehaviour
             GameObject player = GameObject.FindGameObjectWithTag("Player");
 
             PandaController playerController = player.GetComponent<PandaController>();
+            if (playerController.coinNum != 0)
+            {
+                coin += playerController.coinNum;
+                playerController.coinNum = 0;
+                UpdateScore();
+            }
             if (playerController.score != 0)
             {
                 //  PandaControllerのScore値が0でなければstageScoreに加算
@@ -62,6 +74,7 @@ public class GameManager : MonoBehaviour
     void UpdateScore()
     {
         //   TextMeshProのテキストの内容を更新
-        coinText.SetText(stageScore.ToString());
+        coinText.SetText(coin.ToString());
+        ScoreText.SetText(stageScore.ToString());
     }
 }

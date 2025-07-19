@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class CoinData : MonoBehaviour
+public class SpringData : MonoBehaviour
 {
-    public int score = 10;
+    public float jumpForce = 5.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

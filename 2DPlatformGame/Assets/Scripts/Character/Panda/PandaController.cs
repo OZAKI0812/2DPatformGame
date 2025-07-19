@@ -15,7 +15,17 @@ public class PandaController : MonoBehaviour
     private int nowAnime = 0;
     private int prevAnime = 0;
     public static string gameState;
+    public int coinNum = 0;
     public int score = 0;
+
+    public AudioSource jumpAudioSource;
+    public AudioClip    jumpAudioClip;
+
+    public AudioSource  damageAudioSource;
+    public AudioClip    damageAudioClip;
+
+    public AudioSource  coinAudioSource;
+    public AudioClip    coinAudioClip;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -99,8 +109,8 @@ public class PandaController : MonoBehaviour
         goJump = true;
     }
 
-    //  当たり判定
-    void OnTriggerEnter2D(Collider2D collision)
+        //  当たり判定
+        void OnTriggerEnter2D(Collider2D collision)
     {
         //  当たったのがGoalのタグが付いたオブジェクトのとき
         if (collision.gameObject.tag == "Goal")
@@ -110,20 +120,44 @@ public class PandaController : MonoBehaviour
         //  当たったのがDeadのタグが付いたオブジェクトのとき
         else if (collision.gameObject.tag == "Dead")
         {
+            damageAudioSource.PlayOneShot(damageAudioClip);
             GameOver();
         }
         //  Itemタグの物体と衝突したとき
         else if (collision.gameObject.tag == "Item")
         {
-            //  アイテムのスクリプトを取得
-            CoinData coin = collision.gameObject.GetComponent<CoinData>();
-            //  アイテムのスコアを加算
-           score += coin.score;
-            //  アイテムを削除
-            Destroy(collision.gameObject);
+            if (collision.gameObject.name == "Coin")
+            {
+                //  アイテムのスクリプトを取得
+                CoinData coin = collision.gameObject.GetComponent<CoinData>();
+                coinNum += 1;
+                score += coin.score;
+
+                coinAudioSource.PlayOneShot(coinAudioClip);
+
+                //  アイテムを削除
+                Destroy(collision.gameObject);
+            }
+            if (collision.gameObject.name == "Spring")
+            {
+                jumpAudioSource.PlayOneShot(jumpAudioClip);
+                SpringData spring = collision.gameObject.GetComponent<SpringData>();
+                rbody.AddForce(new Vector2(0, spring.jumpForce), ForceMode2D.Impulse);
+            }
         }
         else if (collision.gameObject.tag == "Enemy")
         {
+            if (collision.gameObject.name == "Slime")
+            {
+                SlimData enemy = collision.gameObject.GetComponent<SlimData>();
+                score += enemy.score;
+            }
+            else if (collision.gameObject.name == "Bee")
+            {
+                BeeData enemy = collision.gameObject.GetComponent<BeeData>();
+                score += enemy.score;
+            }
+            damageAudioSource.PlayOneShot(damageAudioClip);
             //  削除
             rbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
             Destroy(collision.gameObject);
