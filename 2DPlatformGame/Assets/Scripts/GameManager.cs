@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     //  画像のGameObject
     public GameObject               mainImage;
     //  リスタート用ボタンオブジェクト
+    public GameObject               nextButton;
     public GameObject               restartButton;
     //  GAMEOVER画像
     public Sprite                   gameOverSpr;
@@ -23,7 +24,10 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         mainImage.SetActive(false);
+
+        nextButton.SetActive(false);
         restartButton.SetActive(false);
+
         audioSource.Play();
     }
 
@@ -35,6 +39,9 @@ public class GameManager : MonoBehaviour
         {
             mainImage.SetActive(true);
             mainImage.GetComponent<Image>().sprite = stageClearSpr;
+
+            nextButton.SetActive(true);
+
             PandaController.gameState = "gameend";
         }
         //  ゲームオーバー
@@ -42,6 +49,7 @@ public class GameManager : MonoBehaviour
         {
             mainImage.SetActive(true);
             restartButton.SetActive(true);
+
             audioSource.Stop();
 
             mainImage.GetComponent<Image>().sprite = gameOverSpr;
