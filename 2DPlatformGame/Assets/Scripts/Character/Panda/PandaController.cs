@@ -142,6 +142,11 @@ public class PandaController : MonoBehaviour
             {
                 jumpAudioSource.PlayOneShot(jumpAudioClip);
                 SpringData spring = collision.gameObject.GetComponent<SpringData>();
+
+                // 上方向に初期化（落下速度を無視するため）
+                rbody.linearVelocity= new Vector2(rbody.linearVelocity.x, 0);
+
+                // そこに一気にジャンプ力を加える
                 rbody.AddForce(new Vector2(0, spring.jumpForce), ForceMode2D.Impulse);
             }
         }
