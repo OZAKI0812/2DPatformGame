@@ -80,6 +80,7 @@ public class PandaController : MonoBehaviour
         if (onGround && goJump)
         {
             Vector2 jumpPw = new Vector2(0, jump);
+
             rbody.AddForce(jumpPw, ForceMode2D.Impulse);
             goJump = false;
         }
@@ -163,6 +164,7 @@ public class PandaController : MonoBehaviour
                 score += enemy.score;
             }
             damageAudioSource.PlayOneShot(damageAudioClip);
+            rbody.linearVelocity = new Vector2(rbody.linearVelocity.x, 0);
             //  çÌèú
             rbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
             Destroy(collision.gameObject);
